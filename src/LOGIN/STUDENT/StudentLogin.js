@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState } from "react";
+import React, {useEffect, useState } from "react";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 
@@ -46,7 +46,7 @@ const StudentLogin = () => {
                 value={username}
                 type="text"
                 required
-                className="bg-[#515966] text-white px-8 outline-none py-2 rounded-lg placeholder:text-sm"
+                className="bg-[#515966] text-white px-3 outline-none py-2 rounded-lg placeholder:text-sm"
                 placeholder="Username"
               />
             </div>
@@ -59,7 +59,7 @@ const StudentLogin = () => {
                 value={password}
                 required
                 type={showPassword ? "text" : "password"}
-                className=" bg-[#515966] text-white rounded-lg outline-none py-2  placeholder:text-sm"
+                className=" bg-[#515966] text-white px-3 outline-none py-2 rounded-lg placeholder:text-sm"
                 placeholder="Password"
               />
               {showPassword ? (
