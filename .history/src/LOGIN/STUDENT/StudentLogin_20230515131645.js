@@ -21,9 +21,9 @@ const StudentLogin = () => {
   // }, []);
 
   return (
-    <div className=" flex gap-16 flex-row h-[530px] my-4 max-w-7xl mx-auto ">
-      <div className="  flex-1 hidden md:inline-flex flex-col   ">
-        {/* <img
+    <div className=" flex flex-row h-[530px] my-20 max-w-7xl mx-auto ">
+      <div className=" bg-black hidden md:inline-flex flex-col   ">
+        <img
           className="h-20 w-20 absolute  bottom-0 left-[272px] right-0 top-24"
           src="/rectangle.png"
           alt=""
@@ -32,17 +32,17 @@ const StudentLogin = () => {
           src="/logo.png"
           className="h-16 w-16 absolute   bottom-0 left-[280px] right-0 top-[105px]"
           alt=""
-        /> */}
+        />
         <img
-          className="hidden mb-8  md:inline h-auto object-cover rounded-[32px]"
+          className="hidden  md:inline h-[530px] object-cover rounded-xl"
           src="/sgtb.jpg"
           alt="banner_image"
         />
       </div>
 
-      <div className="bg-white flex-1 text-left flex  flex-col my-8">
+      <div className="bg-white text-left flex  ml-16 flex-col my-8">
         <h2 className="text-3xl  font-semibold">Login</h2>
-        <p className="text-[#7F8087] text-[20px] mt-2">
+        <p className="text-[#7F8087] text-[18px] mt-2">
           Welcome to official ERP system of SGTBIMIT
         </p>
 
@@ -71,7 +71,7 @@ const StudentLogin = () => {
         </div>
 
         <div>
-          <div className="mt-10 text-[20px] capitalize  sm:w-full sm:max-w-sm">
+          <div className="mt-10 text-[16px] capitalize  sm:w-full sm:max-w-sm">
             <form className="space-y-6" action="#" method="POST">
               <div>
                 <label className="block text-left  font-normal leading-6 text-[#2D2D2D]">
